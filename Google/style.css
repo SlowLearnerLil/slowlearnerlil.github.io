@@ -1,0 +1,63 @@
+.En-tête {
+    display: flex; 
+    color: fuchsia ;
+    justify-content: flex-end; 
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;   
+
+}
+#conteneur { 
+    display: flex;
+    width:1000px;
+    margin:auto; 
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    height: 500px ;
+    align-content: center;
+    wrap: none;
+}
+
+.imagegoogle { 
+    Width: ;
+    margin:1px auto 10px auto;
+}
+
+.barrederecherche {
+    width: ;
+    margin:1px auto 40px auto;
+    border-radius: 10px;
+    }
+
+.boutons {
+    width: ;
+    margin: 1px auto 1px auto;
+    ; 
+}
+.input {
+    display: flex; 
+    width: 600px; 
+
+}
+
+#footer {    
+    background-color: #ebebeb; 
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    padding: 1px 10px 0 10px
+}
+#infobarre { 
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 auto 0 80px
+}
+.France {
+
+}
+
+a, a:visited {
+    /* Les liens "au repos" et déjà visités antérieurement */
+    color: #585858;
+}
+a:hover, a:active {
+    /* Les liens au survol, au focus, et actifs : on leur donne la couleur rouge pour l'exemple */
+    color: #a5a5a5;
+}
